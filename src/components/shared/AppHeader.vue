@@ -83,7 +83,7 @@ export default {
 			<!-- Header menu links and small screen hamburger menu -->
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
-				<div>
+				<!-- <div>
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
@@ -98,7 +98,7 @@ export default {
 							alt="Light Logo"
 						/>
 					</router-link>
-				</div>
+				</div> -->
 
 				<!-- Theme switcher small screen -->
 				<theme-switcher

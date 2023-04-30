@@ -49,6 +49,20 @@ const routes = [
 		},
 	},
 	{
+		path: '/projects/ar-project',
+		name: 'AR Project',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/AREnterprises.vue'
+			),
+		meta: {
+			title: 'Stoman - Single Project',
+		},
+	},
+	{
 		path: '/contact',
 		name: 'Contact',
 		// route level code-splitting

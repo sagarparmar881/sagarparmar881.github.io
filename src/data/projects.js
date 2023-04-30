@@ -7,37 +7,23 @@ const projects = [
 		title: 'AR Enterprises Vapi',
 		category: 'Website',
 		img: require('@/assets/images/project01.jpg'),
+		link:'/projects/ar-project'
 	},
 	{
 		id: 2,
 		title: 'Phoenix Digital Agency',
 		category: 'Mobile Application',
 		img: require('@/assets/images/mobile-project-2.jpg'),
+		link:'/projects/ar-project'
 	},
 	{
 		id: 3,
 		title: 'Project Management UI',
 		category: 'UI/UX Design',
 		img: require('@/assets/images/ui-project-1.jpg'),
+		link:'/projects/single-project'
 	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: require('@/assets/images/ui-project-2.jpg'),
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-1.jpg'),
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: require('@/assets/images/web-project-1.jpg'),
-	},
+
 ];
 
 export default projects;
