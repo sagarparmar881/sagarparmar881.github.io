@@ -6,22 +6,29 @@ const projects = [
 		id: 1,
 		title: 'AR Enterprises Vapi',
 		category: 'Website',
-		img: require('@/assets/images/project01.jpg'),
+		img: require('@/assets/images/ar-enterprises.jpg'),
 		link:'/projects/ar-project'
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: require('@/assets/images/mobile-project-2.jpg'),
-		link:'/projects/ar-project'
+		title: 'License Plate Recognition',
+		category: 'Python Application',
+		img: require('@/assets/images/license-plate.jpg'),
+		link:'/projects/indian-license-plate'
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Navrachana University',
+		category: 'Website',
+		img: require('@/assets/images/navrachana-university.jpg'),
+		link:'/projects/navrachana-university'
+	},
+	{
+		id: 4,
+		title: 'Navrachana University',
+		category: 'Website',
 		img: require('@/assets/images/ui-project-1.jpg'),
-		link:'/projects/single-project'
+		link:'/projects/navrachana-university'
 	},
 
 ];

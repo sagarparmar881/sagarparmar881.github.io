@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Stoman - Home',
+			title: 'Sagar Parmar - Portfolio',
 		},
 	},
 	{
@@ -57,6 +57,34 @@ const routes = [
 		component: () =>
 			import(
 				/* webpackChunkName: "projects" */ '../views/AREnterprises.vue'
+			),
+		meta: {
+			title: 'Stoman - Single Project',
+		},
+	},
+	{
+		path: '/projects/indian-license-plate',
+		name: 'Indian License Plate',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/IndianLicensePlate.vue'
+			),
+		meta: {
+			title: 'Stoman - Single Project',
+		},
+	},
+	{
+		path: '/projects/navrachana-university',
+		name: 'Indian License Plate',
+		// route level code-splitting
+		// this generates a separate chunk (projects.[hash].js) for this route
+		// which is lazy-loaded when the route is visited.
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/NavrachanaUniversity.vue'
 			),
 		meta: {
 			title: 'Stoman - Single Project',
