@@ -1,9 +1,9 @@
 name: Deploy to github pages
-  on:
+on:
     push:
       branches:
         - master
-  jobs:
+jobs:
     gh-pages-deploy:
       name: Deploying to gh-pages
       runs-on: ubuntu-latest
@@ -21,4 +21,4 @@ name: Deploy to github pages
         - name: Run deploy script
           run: |
             git config user.name "Sagar Parmar" && git config user.email "sagarparmar881@gmail.com"
-            npm run gh-pages-deploy
+            npm run gh-pages-deploys
