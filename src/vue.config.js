@@ -1,4 +1,6 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/vuejs-tailwindcss-portfolio-main/'
+    // publicPath: 'sagarparmar881'
+    publicPath: process.env.NODE_ENV === "production" ? "/sagarparmr881/" : "/",
+
 }
