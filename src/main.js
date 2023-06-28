@@ -7,10 +7,16 @@ import BackToTop from 'vue-backtotop';
 const feather = require('feather-icons');
 feather.replace();
 
-createApp(App)
-	.use(router)
-	.use(BackToTop)
-	.mount('#app');
+// createApp(App)
+// 	.use(router)
+// 	.use(BackToTop)
+// 	.mount('#app');
+
+	new Vue({
+		router,
+		store,
+		render: h => h(App)
+	}).$mount('#app');
 
 const appTheme = localStorage.getItem('theme');
 
