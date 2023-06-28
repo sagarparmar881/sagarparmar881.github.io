@@ -14,7 +14,7 @@ feather.replace();
 
 	new Vue({
 		router,
-		store,
+		BackToTop,
 		render: h => h(App)
 	}).$mount('#app');
 
