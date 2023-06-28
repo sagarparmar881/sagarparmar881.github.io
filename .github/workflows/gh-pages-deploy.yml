@@ -10,7 +10,8 @@ jobs:
       steps:
         - name: Setup Node.js for use with actions
           uses: actions/setup-node@v2
-          with:
+          with: 
+            github_token: ${{ secrets.PERSONAL }}
             node-version:  18.x
         - name: Checkout branch
           uses: actions/checkout@v2
